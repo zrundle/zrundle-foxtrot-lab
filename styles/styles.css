@@ -7,10 +7,7 @@ body{
 /* Banner */
 .maintxt {
   position: relative;
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  
+  width: 100%; 
 }
 
 .overlay-text {
@@ -41,7 +38,7 @@ p{
 .card{
   position: fixed;
   top: 250px;
-  right: 245px;
+  left: 345px;
   width: 300px;
 }
 
