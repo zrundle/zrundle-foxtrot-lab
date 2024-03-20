@@ -4,140 +4,120 @@ body{
   url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80"%3E%3Cpath fill="%239C92AC" fill-opacity="0.4" d="M14 16H9v-2h5V9.87a4 4 0 1 1 2 0V14h5v2h-5v15.95A10 10 0 0 0 23.66 27l-3.46-2 8.2-2.2-2.9 5a12 12 0 0 1-21 0l-2.89-5 8.2 2.2-3.47 2A10 10 0 0 0 14 31.95V16zm40 40h-5v-2h5v-4.13a4 4 0 1 1 2 0V54h5v2h-5v15.95A10 10 0 0 0 63.66 67l-3.47-2 8.2-2.2-2.88 5a12 12 0 0 1-21.02 0l-2.88-5 8.2 2.2-3.47 2A10 10 0 0 0 54 71.95V56zm-39 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm40-40a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM15 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm40 40a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"%3E%3C/path%3E%3C/svg%3E')
 }
 
-/* Banner */
-.maintxt {
-  position: relative;
+
+/* Banner */ 
+.maintxt { 
+  position: relative; 
   width: 100%; 
-}
+} 
 
-.overlay-text {
-  position: absolute;
-  left: 50%;
-  top: 40%;
-  transform: translate(-50%, -50%);
-  font-weight: bolder;
-  font-size: 25px;
-  color: rgb(235, 209, 176);
-  text-align: center;
-  -webkit-text-stroke: 1px black;
-}
+.overlay-text { 
+  position: absolute; 
+  left: 50%; 
+  top: 40%; 
+  transform: translate(-50%, -50%); 
+  font-weight: bolder; 
+  font-size: 25px; 
+  color: rgb(235, 209, 176); 
+  text-align: center; 
+  -webkit-text-stroke: 1px black; 
+} 
 
-.yutaerilounging{
-  width: 100%;
-  height: auto;
-  
-}   
-/* Banner End */
-
-p{
-  text-align: center;
-  font-size: medium;
+.yutaerilounging{ 
+  width: 100%; 
+  height: auto; 
 }
-
-/* BLOCK 1 */
-.card{
-  position: fixed;
-  top: 250px;
-  left: 345px;
-  width: 300px;
-}
+/* Banner End */ 
 
 
-.card-header{
-  font-family: sans-serif;
-  font-size: large;
-  text-align: center;
-  color: white;
-  -webkit-text-stroke: 1px black;
-}
-
-.card-text{
-  font-family: sans-serif;
-  font-size: large;
-  font-weight: bold;
-  color: white;
-  -webkit-text-stroke: 1px black;
-}
-
-.card-footer{
-  text-align: center;
-}
-/* BLOCK 1 END */
+p{ 
+  text-align: center; 
+  font-size: medium; 
+} 
+.card {
+  margin-top: 1.5em; 
+} 
+/* BLOCK 1 */ 
 
 
-
-/* BLOCK 2 */
-.card2{
-  position: absolute;
-  top: 390px;
-  right: 50px;
-  width: 355px;
+.card-header{ 
+  font-family: sans-serif; 
+  font-size: 35px; 
+  text-align: center; 
+  color: white; 
+  -webkit-text-stroke: 1.5px black; 
+} 
+.card-text{ 
+  font-family: sans-serif; 
+  font-size: large; 
+  font-weight: bold; 
+  color: white; 
+  -webkit-text-stroke: 1px black; 
+} 
+.card-footer{ 
+  text-align: center; 
 }
-.card-header2{
-  text-align: center;
-  font-family: sans-serif;
-}
-.card-text2{
-  color: white;
-}
-.card-footer2{
-  position: relative;
-  text-align: center;
-}
-.bi{
-  position: relative;
-}
-/* BLOCK 2 END */
+/* BLOCK 1 END */ 
 
 
+/* BLOCK 2 */ 
 
-/* BLOCK 3 */
-.card3{
-  position: fixed; 
-  bottom: 150px; 
-  left: 50px; 
-  width: 200px;
-}
-.card-header3{
-  font-family: sans-serif;
-  font-size: 15px;
-  text-align: center;
-  color: red;
-  -webkit-text-stroke: 0.5px black;
-}
-.card-footer3{
-  text-align: center;
-}
+.card-header2{ 
+  text-align: center; 
+  font-family: sans-serif; 
+} 
+
+.card-text2{ 
+  color: white; 
+} 
+
+.card-footer2{ 
+  position: relative; 
+  text-align: center; 
+} 
+
+.bi{ 
+  position: relative; 
+} 
+/* BLOCK 2 END */ 
+
+
+/* BLOCK 3 */  
+
+.card-header3{ 
+  font-family: sans-serif; 
+  font-size: 14px; 
+  text-align: center; 
+  color: red; 
+  -webkit-text-stroke: 0.5px black; 
+} 
+
+.card-footer3{ 
+  text-align: center; 
+} 
 /* BLOCK 3 END */
 
 
-/* BLOCK 4 */
-.card4{
-  position: fixed; /* Set the position to fixed */
-  bottom: 150px; /* Adjust the top position as needed */
-  right: 50px; /* Adjust the right position as needed */
-  width: 170px;
-  
-}
+/* BLOCK 4 */ 
 .card-header4{
-  font-family: sans-serif;
-  font-size: 14px;
-  text-align: center;
-  color: red;
-  -webkit-text-stroke: 0.5px black;
-}
+  font-family: sans-serif; 
+  font-size: 14px; 
+  text-align: center; 
+  color: red; 
+  -webkit-text-stroke: 0.5px black; 
+} 
 
-.card-footer4{
-  text-align: center;
-}
+.card-footer4 { 
+  text-align: center; 
+} 
 /* BLOCK 4 END */
 
+
 /* SHUFFLE COLOR BUTTON */
-#shuffleButton {
-  background-color: black;
+#shuffleButton { 
+  background-color: black; 
   color: antiquewhite;
   position: absolute;
-  bottom: 0px;
-  padding: 30px 20px;
-  cursor: pointer;
+  padding: 30px 20px; 
+  cursor: pointer; 
 }
